@@ -1,0 +1,17 @@
+.navigation{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 2rem 0;
+}
+.navs{
+    display: flex;
+    gap: 3rem;
+}
+.navs li a{
+    color: #000;
+    text-transform: capitalize;
+}

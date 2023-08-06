@@ -1,2 +1,46 @@
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.btn{
+    display: flex;
+    padding: 8px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    gap: 5px;
+    border-radius: 5px;
+}
+.email-btn{
+    padding: 5px 0;
+}
+.from-input-container{
+    padding: 2rem;
+}
+.from-input-container form input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #000;
+    color: #000;
+}
+@media only screen and (max-width: 668px){
+  .btn{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
 
-
+@media only screen and (max-width: 1024px){
+  .from-content-container{
+      padding: 1rem;
+  }
+  .btn{
+    font-size: 11px;
+  }
+}
