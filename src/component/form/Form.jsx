@@ -13,8 +13,12 @@ const Form = () => {
             <div className="from-content">
                 <div className="from-content-container">
                     <div className="form-top">
-                       <Button text ="VIA SUPPORT CHAT" icons={<BiMessageDetail/>}/>
+                      <div className="btn-div">
+                      <Button text ="VIA SUPPORT CHAT" icons={<BiMessageDetail/>}/>
+                      </div>
+                       <div className="btn-div">
                        <Button text ="VIA SUPPORT Call" icons={<FiPhoneCall/>}/>
+                       </div>
                     </div>
                     <div className="email-btn">
                     <Button icons={<MdOutlineEmail/>} text="Via Email From"/>
@@ -24,7 +28,9 @@ const Form = () => {
                             <input type="text" placeholder='Name' />
                             <input type="email" placeholder='Email' />
                             <textarea name="" id="" cols="30" rows="5" placeholder='Your message'></textarea>
-                            <Button text=" submit"/>
+                            <div className="form-btn-div">
+                             <Button text=" submit"/>
+                            </div>
                         </form>
                     </div>
                 </div>
